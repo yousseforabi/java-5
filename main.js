@@ -33,4 +33,12 @@ let account = {
     }
   };
   
-  
+  // test the code above
+  account.getAccountName();
+  account.getBalance();
+  account.deposit(500);
+  account.getBalance();
+  account.withdrawal(200);
+  account.getBalance();
+  account.withdrawal(2000);  
+  account.exitAccount();
